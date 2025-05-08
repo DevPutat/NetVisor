@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/DevPutat/NetVisor/internal/network"
+)
+
 func main() {
-	//TODO:: run
+	fmt.Println(network.NetInterfaces())
 }
